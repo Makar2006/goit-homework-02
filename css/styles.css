@@ -1,0 +1,110 @@
+:root {
+  --bg-dr: #2e2f42;
+  --bg-lgt: #f4f4fd;
+  --bg-dr-txt: #f4f4fd;
+  --primary-text-color: #434455;
+  --title-text-color: #2e2f42;
+  --bg-txt-btn: #4d5ae5;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  letter-spacing: 0.02em;
+}
+.nav-link {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--title-text-color);
+}
+.addres-link {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--primary-text-color);
+  font-style: normal;
+}
+
+.section-bg-dr {
+  background-color: var(--bg-dr);
+}
+.main-title {
+  color: var(--bg-dr-txt);
+}
+
+.btn-main {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #fff;
+  background-color: var(--bg-txt-btn);
+}
+.btn-main:hover {
+  color: var(--bg-txt-btn);
+  background-color: var(--bg-lgt);
+}
+.title-offers {
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--title-text-color);
+}
+.text-offers {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--primary-text-color);
+}
+.title-second {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--title-text-color);
+}
+.section-bg-lgt {
+  background-color: var(--bg-lgt);
+}
+.title-team {
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  color: var(--title-text-color);
+}
+.text-team {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: var(--primary-text-color);
+}
+
+.footer {
+  background-color: var(--bg-dr);
+}
+.footer-text {
+  color: var(--bg-dr-txt);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/*css to Portfolio*/
+
+.btn-portfolio {
+  color: var(--bg-txt-btn);
+  background-color: var(--bg-lgt);
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.04em;
+}
+.btn-portfolio:hover {
+  color: #fff;
+  background-color: var(--bg-txt-btn);
+}
+.title-portfolio {
+  color: var(--title-text-color);
+  font-size: 20px;
+  line-height: 1.2;
+}
+.text-portfolio {
+  color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.5;
+}
